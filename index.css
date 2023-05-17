@@ -1,0 +1,61 @@
+body {
+    background-image: url(/images/class-student.jpg);
+    background-color: antiquewhite;
+    background-size: cover;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: aliceblue;
+    opacity: 0.7;
+    max-width: 800px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.boys-class, .girls-class {
+    justify-content: space-around;
+    border: 2px solid #E7C39E;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+p {
+    color: #000000;
+    font-size: 18px;
+}
+#gincrement-btn, #bincrement-btn {
+    background: #54608F;
+}
+
+#gsave-btn, #bsave-btn {
+    background: #BE7B58;
+}
+

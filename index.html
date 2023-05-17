@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Student Counter</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="boys-class">
+                <h1>Boys Entered</h1>
+                <h2 id="bcount-el">0</h2>
+                <button id="bincrement-btn" onclick="bincrement()">INCREMENT</button>
+                <button id="bsave-btn" onclick="bsave()">SAVE</button>
+                <p id="bsave-el">Previous Entry:  </p>
+            </div>
+            <div class="girls-class">
+                <h1>Girls Entered</h1>
+                <h2 id="gcount-el">0</h2>
+                <button id="gincrement-btn" onclick="gincrement()">INCREMENT</button>
+                <button id="gsave-btn" onclick="gsave()">SAVE</button>
+                <p id="gsave-el">Previous Entry:  </p>
+                <script src="index.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
